@@ -39,7 +39,7 @@ print(myrand(1)) #种子默认为1
 #     const unsigned int MOD = 0x7ffffffff; 
 #     const long long MOD_MAX = (1LL << 32);
 #     unsigned int r[700];
-#     r[0] = 2;
+#     r[0] = 2; //种子
 #     for (int i = 1; i < 31; i++)
 #     {
 #         r[i] = (16807LL * (signed int)r[i - 1]) % 2147483647; 
