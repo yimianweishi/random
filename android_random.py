@@ -31,8 +31,5 @@ class myrandom:
                 r = u % bound
                 u = self._next(31)
         return r
-tmp = myrandom()
-tmp.myrandom(1)
-for i in range(50):
-    print(tmp._nextInt_bound(10))
+
     
